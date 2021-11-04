@@ -166,3 +166,7 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+#about-me {
+    display:block;
+}
