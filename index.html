@@ -1,78 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Ken Crawford Portfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets1/css/style.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <h1>Ken Crawford Portfolio</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat, nostrum sint repellat tenetur, reprehenderit libero illo asperiores hic voluptatum nobis commodi delectus ipsum quam repellendus, nesciunt officia a sunt!
-      </p>
-    </header>
 
-    <!-- Navbar -->
+<head>
+  <title>Ken Crawford Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Ken Crawford Portfolio</h1>
+    <p>
+      Web Developer
+    </p>
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#about-me">About Me</a>
+    <a href="#projects">Portfolio</a>
+    <a href="#contact-info">Contact Info</a>
+    <a href="./assets/resume/Ken Crawford.pdf">Resume</a>
+  </nav>
+
+  <!-- Body -->
+  <main>
+    <!-- Sidebar -->
+    <aside id="about-me">
+      <h2>About Me</h2>
+      <h3>Direct Web development</h3>
+      <ul id="about-me-list">
+        <li id="about-me-list">HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>jQuery</li>
+        <li>JNode</li>
+        </ol>
+    </aside>
+    <!-- Product Cards -->
+    <div class="projects" id="projects">
+      <section class="card1">
+        <header>NBA Team Stats</header>
+        <a target="_blank" href="https://kencford.github.io/NBA-Team-Stats/"> <img
+            src="./assets/images/Project_1_NBA_homepage.png" alt="NBA Team Stats thumbnail" /></a>
+      </section>
+      <section class="card">
+        <header>Password Generator</header>
+        <a target="_blank" href="https://kencford.github.io/Password-Generator/"><img
+            src="./assets/images/password_generator.png" alt="Password Generator thumbnail" /></a>
+      </section>
+      <section class="card">
+        <header>Work Day Scheduler</header>
+        <a target="_blank" href="https://kencford.github.io/Work-Day-Scheduler/"><img
+            src="./assets/images/Work-day-scheduler.png" alt="Password Generator thumbnail" /></a>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact-info" class="footer">
+    <h1>Contact Info<span class="seo"></span></h1>
     <nav>
-      <a href="#aboutMe">About Me</a>
-      <a href="#projects">Portfolio</a>
-      <a href="#">Contact Info</a>
-      <a href="#">Resume</a>
+      <ul>
+        <li>
+          <p>Phone 555-5555</p>
+        </li>
+        <li>
+          <a href="mailto: kencrawford@fastmail.com">kencrawford@fastmail.com</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/crawfordken/">LinkedIn</a>
+        </li>
+        <li>
+          <a href="./assets/resume/Ken Crawford.pdf">Resume</a>
+        </li>
+      </ul>
     </nav>
+  </footer>
 
-    <!-- Body -->
-    <main>
-      <!-- Sidebar -->
-      <aside id="aboutMe">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odio nihil impedit ullam amet architecto consectetur deleniti, labore hic reiciendis aut dolore officia, aliquam accusamus commodi! Vero ducimus error expedita!</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusamus minus hic, est officia unde voluptatum. Quaerat praesentium sed commodi, enim illo laudantium modi. Placeat qui iste eius illo? Rerum.
-        </p>
-      </aside>
-      <!-- Product Cards -->
-      <div class="projects" id="projects">
-        <section class="card1">
-          <header>Project 1</header>
-          <a target="_blank" href="https://kencford.github.io/code-refactor/">   <img src="./assets1/images/Project1-thumbnail.PNG" alt="Project 1 thumbnail"/></a>
-          <!-- <a target="_blank" href=https://github.com/kencford/code-refactor > -->
-        </section>
-        <section class="card">
-          <header>Project2</header>
-          <a target="_blank" href="https://kencford.github.io/code-refactor/"><img src="./assets1/images/Project2-thumbnail.png" alt="Project 2 thumbnail"/></a>
-          <!-- <p>No text needed yet</p> -->
-        </section>
-        <section class="card">
-          <header>Project 3</header>
-          <img
-            src="./assets1/images/under-construction.png"
-            alt="Project 3 Thumbnail"
-          />
-          <!-- <p>No text needed yet</p> -->
-        </section>
-      </div>
-    </main>
+</body>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <h1>Contact Info<span class="seo"></span></h1>
-      <nav>
-          <ul>
-              <li>
-                  <p>Phone 555-5555</p>
-              </li>
-              <li>
-                  <a href="#online-reputation-management">Online Reputation Management</a>
-              </li>
-              <li>
-                  <a href="#social-media-marketing">Social Media Marketing</a>
-              </li>
-          </ul>
-      </nav>
-    </footer>
-
-  </body>
 </html>
