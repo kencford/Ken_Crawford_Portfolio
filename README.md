@@ -1,10 +1,10 @@
 # Ken_Crawford_Portfolio
-Portfolio for Ken Crawford modifications Nov 26, 2021
+Portfolio for Ken Crawford modifications Jan 1, 2022
 
 Updated so as to provide the following:
- - Updated portfolio featuring Project 1 and two homework assignments
+ - Updated portfolio featuring more recent assignments
  - Display contact information
  - Link to LinkedIn
- - Link for viewing resume
+ - Link for updated resume
  
 
